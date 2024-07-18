@@ -18,7 +18,7 @@ public class Question {
         this.opt4 = opt4;
         this.ans = ans;
     }
-    
+
     public int getId() {
         return id;
     }
@@ -62,4 +62,12 @@ public class Question {
         this.ans = ans;
     }
 
+    @Override
+    public String toString() {
+        return "Question [id=" + id + ", question=" + question + ", opt1=" + opt1 + ", opt3=" + opt3 + ", opt2=" + opt2
+                + ", opt4=" + opt4 + ", ans=" + ans + "]";
+    }
+
+
+    
 }

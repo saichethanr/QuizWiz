@@ -8,7 +8,9 @@ public class QuestionService {
     questions[4] = new Question(1, "what", "java", "cpp", "python", "c#", "java");
  }
  public void displayquestions(){
-
+    for(Question q:questions){
+        System.out.println(q);
+    }
  }
 
 }
